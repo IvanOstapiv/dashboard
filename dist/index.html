@@ -4,16 +4,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css?_v=20231216034931" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20231216233156" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap&_v=20231216034931"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap&_v=20231216233156"
     rel="stylesheet"
   />
   <link
     rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&_v=20231216034931"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&_v=20231216233156"
   />
   <title>Dashboard</title>
 </head>
@@ -401,72 +401,99 @@
           </div>
         </div>
       </div>
-      <div class="product__grid">
-        <div class="product__grid-title">Customer Name</div>
-        <div class="product__grid-title">Company</div>
-        <div class="product__grid-title">Phone number</div>
-        <div class="product__grid-title">Email</div>
-        <div class="product__grid-title">Country</div>
-        <div class="product__grid-title">Status</div>
-        <div class="product__item">Jane Cooper</div>
-        <div class="product__item">Microsoft</div>
-        <div class="product__item">(225) 555-0118</div>
-        <div class="product__item">jane@microsoft.com</div>
-        <div class="product__item">United States</div>
-        <div class="product__item">
-          <span class="product__status product__status_active">Active</span>
+      <div class="product__grid grid">
+        <div class="grid__row">
+          <div class="grid__item">Customer Name</div>
+          <div class="grid__item">Company</div>
+          <div class="grid__item">Phone number</div>
+          <div class="grid__item">Email</div>
+          <div class="grid__item">Country</div>
+          <div class="grid__item">Status</div>
         </div>
-        <div class="product__item">Floyd Miles</div>
-        <div class="product__item">Yahoo</div>
-        <div class="product__item">(205) 555-0100</div>
-        <div class="product__item">floyd@yahoo.com</div>
-        <div class="product__item">Kiribati</div>
-        <div class="product__item"><span class="product__status">Inactive</span></div>
-        <div class="product__item">Ronald Richards</div>
-        <div class="product__item">Adobe</div>
-        <div class="product__item">(302) 555-0107</div>
-        <div class="product__item">ronald@adobe.com</div>
-        <div class="product__item">Israel</div>
-        <div class="product__item"><span class="product__status">Inactive</span></div>
-        <div class="product__item">Marvin McKinney</div>
-        <div class="product__item">Tesla</div>
-        <div class="product__item">(252) 555-0126</div>
-        <div class="product__item">marvin@tesla.com</div>
-        <div class="product__item">Iran</div>
-        <div class="product__item">
-          <span class="product__status product__status_active">Active</span>
+
+        <div class="grid__row">
+          <div class="grid__item">Jane Cooper</div>
+          <div class="grid__item">Microsoft</div>
+          <div class="grid__item">(225) 555-0118</div>
+          <div class="grid__item">jane@microsoft.com</div>
+          <div class="grid__item">United States</div>
+          <div class="grid__item">
+            <span class="product__status product__status_active">Active</span>
+          </div>
         </div>
-        <div class="product__item">Jerome Bell</div>
-        <div class="product__item">Google</div>
-        <div class="product__item">(629) 555-0129</div>
-        <div class="product__item">jerome@google.com</div>
-        <div class="product__item">Réunion</div>
-        <div class="product__item">
-          <span class="product__status product__status_active">Active</span>
+
+        <div class="grid__row">
+          <div class="grid__item">Floyd Miles</div>
+          <div class="grid__item">Yahoo</div>
+          <div class="grid__item">(205) 555-0100</div>
+          <div class="grid__item">floyd@yahoo.com</div>
+          <div class="grid__item">Kiribati</div>
+          <div class="grid__item"><span class="product__status">Inactive</span></div>
         </div>
-        <div class="product__item">Kathryn Murphy</div>
-        <div class="product__item">Microsoft</div>
-        <div class="product__item">(406) 555-0120</div>
-        <div class="product__item">kathryn@microsoft.com</div>
-        <div class="product__item">Curaçao</div>
-        <div class="product__item">
-          <span class="product__status product__status_active">Active</span>
+
+        <div class="grid__row">
+          <div class="grid__item">Ronald Richards</div>
+          <div class="grid__item">Adobe</div>
+          <div class="grid__item">(302) 555-0107</div>
+          <div class="grid__item">ronald@adobe.com</div>
+          <div class="grid__item">Israel</div>
+          <div class="grid__item"><span class="product__status">Inactive</span></div>
         </div>
-        <div class="product__item">Jacob Jones</div>
-        <div class="product__item">Yahoo</div>
-        <div class="product__item">(208) 555-0112</div>
-        <div class="product__item">jacob@yahoo.com</div>
-        <div class="product__item">Brazil</div>
-        <div class="product__item">
-          <span class="product__status product__status_active">Active</span>
+
+        <div class="grid__row">
+          <div class="grid__item">Marvin McKinney</div>
+          <div class="grid__item">Tesla</div>
+          <div class="grid__item">(252) 555-0126</div>
+          <div class="grid__item">marvin@tesla.com</div>
+          <div class="grid__item">Iran</div>
+          <div class="grid__item">
+            <span class="product__status product__status_active">Active</span>
+          </div>
         </div>
-        <div class="product__item">Kristin Watson</div>
-        <div class="product__item">Facebook</div>
-        <div class="product__item">(704) 555-0127</div>
-        <div class="product__item">kristin@facebook.com</div>
-        <div class="product__item">Åland Islands</div>
-        <div class="product__item"><span class="product__status">Inactive</span></div>
+
+        <div class="grid__row">
+          <div class="grid__item">Jerome Bell</div>
+          <div class="grid__item">Google</div>
+          <div class="grid__item">(629) 555-0129</div>
+          <div class="grid__item">jerome@google.com</div>
+          <div class="grid__item">Réunion</div>
+          <div class="grid__item">
+            <span class="product__status product__status_active">Active</span>
+          </div>
+        </div>
+
+        <div class="grid__row">
+          <div class="grid__item">Kathryn Murphy</div>
+          <div class="grid__item">Microsoft</div>
+          <div class="grid__item">(406) 555-0120</div>
+          <div class="grid__item">kathryn@microsoft.com</div>
+          <div class="grid__item">Curaçao</div>
+          <div class="grid__item">
+            <span class="product__status product__status_active">Active</span>
+          </div>
+        </div>
+
+        <div class="grid__row">
+          <div class="grid__item">Jacob Jones</div>
+          <div class="grid__item">Yahoo</div>
+          <div class="grid__item">(208) 555-0112</div>
+          <div class="grid__item">jacob@yahoo.com</div>
+          <div class="grid__item">Brazil</div>
+          <div class="grid__item">
+            <span class="product__status product__status_active">Active</span>
+          </div>
+        </div>
+
+        <div class="grid__row">
+          <div class="grid__item">Kristin Watson</div>
+          <div class="grid__item">Facebook</div>
+          <div class="grid__item">(704) 555-0127</div>
+          <div class="grid__item">kristin@facebook.com</div>
+          <div class="grid__item">Åland Islands</div>
+          <div class="grid__item"><span class="product__status">Inactive</span></div>
+        </div>
       </div>
+
       <div class="product__footer">
         <div class="product__info">Showing data 1 to 8 of 256K entries</div>
         <div class="product_pagination">
@@ -485,6 +512,6 @@
 </div>
 
     </div>
-    <script src="js/app.min.js?_v=20231216034931"></script>
+    <script src="js/app.min.js?_v=20231216233156"></script>
   </body>
 </html>
