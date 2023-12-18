@@ -492,13 +492,23 @@ table {
   display: flex;
   justify-content: center;
   border-radius: 4px;
-  color: #DF0404;
+  color: #df0404;
   background-color: #ffc5c5;
+}
+@media (min-width: 600px) {
+  .item__body {
+    border: 1px solid #df0404;
+  }
 }
 .item__body_active {
   border-radius: 4px;
   color: #008767;
   background-color: rgba(22, 192, 152, 0.38);
+}
+@media (min-width: 600px) {
+  .item__body_active {
+    border: 1px solid #00b087;
+  }
 }
 
 .search {
