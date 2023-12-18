@@ -309,6 +309,7 @@ table {
 @media (max-width: 968px) {
   .product {
     min-height: 0;
+    background-color: unset;
   }
 }
 .product__container {
